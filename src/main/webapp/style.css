@@ -1,0 +1,42 @@
+
+.image1{
+    width: 175px;
+    background: url("images/crying.jpg");
+    display: inline-block;
+    margin-right: 30;
+}
+.image1:hover{
+     content: url("images/laughing.jpg");
+    
+}
+.back_to_main_lobby{
+                color: lightskyblue;
+                font-family: sans-serif;
+                position: relative;
+                font-size: 30;
+                text-align: center;                                     
+}
+.toolbar {
+    background-color: darkgray;
+    padding: 12px;
+  }
+
+  .toolbar a {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    margin-right: 30;
+    border-color: darkgray;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 20;
+    padding-right: 20;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .toolbar a:hover {
+    border-color: white;
+    background-color: black;
+    color: white;
+  }
